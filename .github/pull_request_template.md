@@ -1,6 +1,6 @@
 <!--
 One-minute briefing for a reviewer who has the diff, not a lab notebook.
-Short, simple sentences. Drop any section with nothing to say (except Scope).
+Short, simple sentences. Drop any other section with nothing to say. Keep Why, Scope and Verification.
 This body becomes the squash commit body: keep it under about 40 lines.
 No full SHAs, file-by-file checklists or "CLEAN" verdicts.
 -->
