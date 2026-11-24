@@ -29,18 +29,3 @@ No full SHAs, file-by-file checklists or "CLEAN" verdicts.
 
 <!-- 1-3 bullets, each a real command, CI job or manual check and its outcome.
 Perf: one number, before -> after. Screenshots or video below only when they prove a claim. -->
-
-## Review
-
-**Door:** `two-way` | `one-way`
-<!-- two-way = cheap to undo. one-way = schema, stored data, public contracts, deletions, secrets. -->
-
-**Carve-out:** `yes` | `no`
-<!-- Yes when it changes agent instructions (AGENTS.md, .cursor/), CI (.github/), package.json
-scripts or dependencies, the lockfile, lint/TS/test/build config, Docker or deploy config,
-secrets/env, or the review/merge process. Yes means Michael approves. Reviewer assigns the risk grade. -->
-
-**Cleanup:** `none` | `needed` | `done`
-<!-- Leftovers from this change, and what to delete later. -->
-
-**Refs:** <!-- Closes #123 / Refs #456 -->
